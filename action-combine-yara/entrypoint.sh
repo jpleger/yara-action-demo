@@ -6,3 +6,4 @@ cat $GITHUB_WORKSPACE/rules/*.yara > $GITHUB_WORKSPACE/all.yara
 cat $GITHUB_WORKSPACE/all.yara
 cd $GITHUB_WORKSPACE
 ls -al
+cat $GITHUB_WORKSPACE/.git/config
