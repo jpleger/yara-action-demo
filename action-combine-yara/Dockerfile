@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 
 RUN apt-get update &&  apt-get upgrade -y
-RUN apt-get install -y python3 yara
+RUN apt-get install -y python3 yara git
 
 LABEL "com.github.actions.name"="Combine Yara Signatures"
 LABEL "com.github.actions.description"="Combine all yara sigs into a single file."
