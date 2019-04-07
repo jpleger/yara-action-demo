@@ -1,5 +1,5 @@
 workflow "Build and Publish" {
-  on = "pull_request"
+  on = "push"
   resolves = "Publish"
 }
 
