@@ -5,4 +5,5 @@ set -eu
 cd $GITHUB_WORKSPACE
 cat rules/*.yara > all.yara
 git add all.yara
-git push all.yara
+git commit -m 'updating all.yara'
+git push
