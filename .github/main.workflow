@@ -1,4 +1,4 @@
-workflow "Build and Publish" {
+workflow "Publish Signatures" {
   on = "push"
   resolves = "Publish"
 }

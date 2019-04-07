@@ -8,4 +8,5 @@ git add all.yara
 git config --global user.email "jpleger@gmail.com"
 git config --global user.name "James Pleger"
 git commit -m 'updating all.yara'
+git push --set-upstream origin master
 git push
