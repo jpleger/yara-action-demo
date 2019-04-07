@@ -5,5 +5,7 @@ set -eu
 cd $GITHUB_WORKSPACE
 cat rules/*.yara > all.yara
 git add all.yara
+git config --global user.email "jpleger@gmail.com"
+git config --global user.name "James Pleger"
 git commit -m 'updating all.yara'
 git push
