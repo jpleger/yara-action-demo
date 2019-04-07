@@ -13,4 +13,4 @@ LABEL "homepage"="http://github.com/jpleger/"
 LABEL "maintainer"="James Pleger <jpleger@github.com>"
 
 ADD entrypoint.sh /entrypoint.sh
-ENTRYPOINT [ "entrypoint.sh" ]
+ENTRYPOINT [ "/entrypoint.sh" ]
